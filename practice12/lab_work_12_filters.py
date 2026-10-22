@@ -1,5 +1,3 @@
-"""Модуль для роботи з файлами: перегляд, пошук і створення."""
-
 import os
 
 
@@ -47,7 +45,7 @@ def create_file(path, text):
 
 
 if __name__ == "__main__":
-    # Самоперевірка модуля
+   
     print("Файли в поточній папці:", list_files("."))
     print("Файли зі словом 'files':", find_files(".", "files"))
     print("Створено:", create_file("selftest.txt", "Тестовий текст"))
