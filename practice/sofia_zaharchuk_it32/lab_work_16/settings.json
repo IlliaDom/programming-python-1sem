@@ -1,0 +1,13 @@
+{
+  "owner": "Sofiia Zakharchuk",
+  "group": "IT-32",
+  "currency": "UAH",
+  "monthly_limit": 6000,
+  "categories": [
+    "coffee",
+    "food",
+    "transport",
+    "snacks",
+    "stationery"
+  ]
+}

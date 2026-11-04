@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-09-21",
+    "category": "coffee",
+    "amount": 45.0,
+    "comment": "coffee before lecture"
+  },
+  {
+    "date": "2026-09-21",
+    "category": "food",
+    "amount": 38.0,
+    "comment": "bread and cheese"
+  },
+  {
+    "date": "2026-09-21",
+    "category": "transport",
+    "amount": 16.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "food",
+    "amount": 52.0,
+    "comment": "lunch at canteen"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "coffee",
+    "amount": 45.0,
+    "comment": "coffee before lecture"
+  },
+  {
+    "date": "2026-09-23",
+    "category": "snacks",
+    "amount": 27.0,
+    "comment": "cookies"
+  },
+  {
+    "date": "2026-09-23",
+    "category": "transport",
+    "amount": 16.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "food",
+    "amount": 60.0,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "coffee",
+    "amount": 45.0,
+    "comment": "coffee before lecture"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "stationery",
+    "amount": 35.0,
+    "comment": "notebook"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "transport",
+    "amount": 16.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "snacks",
+    "amount": 22.0,
+    "comment": "chips"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "food",
+    "amount": 48.0,
+    "comment": "dinner"
+  },
+  {
+    "date": "2026-09-27",
+    "category": "coffee",
+    "amount": 45.0,
+    "comment": "coffee with friend"
+  },
+  {
+    "date": "2026-11-04",
+    "category": "coffee",
+    "amount": 45.0,
+    "comment": "added by task2"
+  }
+]
