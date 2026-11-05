@@ -3,7 +3,8 @@ env/
 __pycache__/
 .venv/
 lecture/
-practice/
+/practice/*
+!/practice/melnykdiana_i23/
 node_modules/
 .claude/skills/
 .DS_Store
