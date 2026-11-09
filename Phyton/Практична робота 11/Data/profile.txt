@@ -1,0 +1,4 @@
+name: Sasha
+surname: Romanitch
+group: IT-32
+birthday day: 30

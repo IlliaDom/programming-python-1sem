@@ -1,0 +1,2 @@
+photo.jpg -> 2026-10/
+notes.txt -> 2026-10/
