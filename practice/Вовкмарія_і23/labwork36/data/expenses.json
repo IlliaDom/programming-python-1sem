@@ -1,0 +1,80 @@
+[
+  {
+    "date": "2026-09-21",
+    "category": "food",
+    "amount": 85.5,
+    "comment": "lunch at college"
+  },
+  {
+    "date": "2026-09-21",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "food",
+    "amount": 120.0,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "coffee",
+    "amount": 65.0,
+    "comment": "coffee before lecture"
+  },
+  {
+    "date": "2026-09-23",
+    "category": "books",
+    "amount": 220.0,
+    "comment": "Python study materials"
+  },
+  {
+    "date": "2026-09-23",
+    "category": "food",
+    "amount": 45.0,
+    "comment": "snack"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-24",
+    "category": "food",
+    "amount": 96.5,
+    "comment": "dinner"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "coffee",
+    "amount": 65.0,
+    "comment": "coffee before lecture"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "internet",
+    "amount": 250.0,
+    "comment": "monthly internet plan"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-09-26",
+    "category": "food",
+    "amount": 65.0,
+    "comment": "pizza"
+  },
+  {
+    "date": "2026-09-27",
+    "category": "food",
+    "amount": 140.0,
+    "comment": "weekend groceries"
+  }
+]

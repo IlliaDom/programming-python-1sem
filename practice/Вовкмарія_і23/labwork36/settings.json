@@ -1,0 +1,11 @@
+{
+  "owner": "Maria Vovk",
+  "group": "І-23",
+  "currency": "UAH",
+  "monthly_limit": 6000,
+  "categories": [
+    "food",
+    "transport",
+    "fun"
+  ]
+}
