@@ -1,0 +1,17 @@
+Expenses report for Anastasia Zakharchuk (IT-32)
+Period: 2026-09-27 .. 2026-10-03
+Records: 13
+
+category   count     total   share  chart
+----------------------------------------------------
+food           5    510.00   40.7%  ########
+internet       1    250.00   19.9%  ####
+books          1    220.00   17.5%  ####
+coffee         3    190.00   15.2%  ###
+transport      3     84.00    6.7%  #
+----------------------------------------------------
+total         13   1254.00  100.0%
+
+Top day: 2026-10-01 (278.00)
+Most expensive: internet 250.00 (monthly plan)
+Average per day: 179.14

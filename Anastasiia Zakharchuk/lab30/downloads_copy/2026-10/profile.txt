@@ -1,0 +1,5 @@
+name: Anastasia
+surname: Zakharchuk
+group: IT-32
+year: 2008
+language: javascript
