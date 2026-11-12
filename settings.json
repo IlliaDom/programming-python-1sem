@@ -1,0 +1,14 @@
+{
+  "owner": "Anatolii Kurotych",
+  "group": "PZ-11",
+  "currency": "UAH",
+  "monthly_limit": 6000,
+  "categories": [
+    "food",
+    "transport",
+    "fun",
+    "coffee",
+    "books",
+    "internet"
+  ]
+}
