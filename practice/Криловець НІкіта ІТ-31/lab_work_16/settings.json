@@ -1,0 +1,11 @@
+{
+  "owner": "Nikita Krilovets",
+  "group": "IT-31",
+  "currency": "UAH",
+  "monthly_limit": 6000,
+  "categories": [
+    "food",
+    "transport",
+    "fun"
+  ]
+}
