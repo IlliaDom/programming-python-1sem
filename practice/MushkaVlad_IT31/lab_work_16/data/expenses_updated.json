@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-09-30",
+    "category": "transfer",
+    "amount": 35.0,
+    "comment": "dinner"
+  },
+  {
+    "date": "2026-09-30",
+    "category": "water",
+    "amount": 35.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-09-30",
+    "category": "transfer",
+    "amount": 200.0,
+    "comment": "dinner"
+  },
+  {
+    "date": "2026-10-02",
+    "category": "energy_drink",
+    "amount": 38.0,
+    "comment": "breakfast"
+  },
+  {
+    "date": "2026-10-02",
+    "category": "water",
+    "amount": 35.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-11-16",
+    "category": "food",
+    "amount": 150.0,
+    "comment": "lunch"
+  }
+]

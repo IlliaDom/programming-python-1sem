@@ -1,0 +1,11 @@
+{
+  "owner": "Vlad Mushka",
+  "group": "IT31",
+  "currency": "UAH",
+  "monthly_limit": 6000,
+  "categories": [
+    "food",
+    "transport",
+    "fun"
+  ]
+}
