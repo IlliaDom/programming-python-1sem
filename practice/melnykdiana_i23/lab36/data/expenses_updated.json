@@ -1,0 +1,80 @@
+[
+  {
+    "date": "2026-09-30",
+    "category": "food",
+    "amount": 180.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "2026-10-01",
+    "category": "transport",
+    "amount": 60.0,
+    "comment": "Проїзд"
+  },
+  {
+    "date": "2026-10-01",
+    "category": "coffee",
+    "amount": 85.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "2026-10-02",
+    "category": "food",
+    "amount": 220.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "2026-10-02",
+    "category": "books",
+    "amount": 250.0,
+    "comment": "Навчальний посібник"
+  },
+  {
+    "date": "2026-10-03",
+    "category": "transport",
+    "amount": 60.0,
+    "comment": "Проїзд"
+  },
+  {
+    "date": "2026-10-03",
+    "category": "food",
+    "amount": 150.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "2026-10-04",
+    "category": "internet",
+    "amount": 300.0,
+    "comment": "Інтернет"
+  },
+  {
+    "date": "2026-10-04",
+    "category": "coffee",
+    "amount": 90.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "2026-10-05",
+    "category": "food",
+    "amount": 320.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "2026-10-05",
+    "category": "transport",
+    "amount": 60.0,
+    "comment": "Проїзд"
+  },
+  {
+    "date": "2026-10-06",
+    "category": "food",
+    "amount": 200.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "2026-11-19",
+    "category": "food",
+    "amount": 65,
+    "comment": "Обід"
+  }
+]
