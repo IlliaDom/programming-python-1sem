@@ -3,16 +3,15 @@ from pathlib import Path
 
 from tabulate import tabulate
 
-# --- ВАШІ ДАНІ: замініть на справжні ---
-NAME = "Ivan"
-SURNAME = "Petrenko"
-GROUP = "PZ-11"
+NAME = "Kateryna"
+SURNAME = "Katashynska"
+GROUP = "IT-31"
 
 DATA_FILE = Path(__file__).resolve().parent / "data" / "expenses.csv"
 
 
 def main():
-    print(f"{NAME} {SURNAME}, {GROUP}")
+    print(f"{Kateryna} {Katashynska}, {IT-31}")
 
     if not DATA_FILE.is_file():
         print(f"error: {DATA_FILE} not found", file=sys.stderr)
