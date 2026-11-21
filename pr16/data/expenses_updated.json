@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-11-10",
+    "category": "food",
+    "amount": 90.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "transport",
+    "amount": 24.0,
+    "comment": "bus"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "food",
+    "amount": 50.5,
+    "comment": "coffee"
+  },
+  {
+    "date": "2026-11-21",
+    "category": "food",
+    "amount": 55.0,
+    "comment": "added by task2"
+  }
+]
