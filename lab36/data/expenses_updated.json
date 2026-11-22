@@ -1,0 +1,80 @@
+[
+  {
+    "date": "2026-10-06",
+    "category": "food",
+    "amount": 120.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-10-06",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus"
+  },
+  {
+    "date": "2026-10-07",
+    "category": "food",
+    "amount": 85.0,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-10-07",
+    "category": "coffee",
+    "amount": 60.0,
+    "comment": "coffee"
+  },
+  {
+    "date": "2026-10-08",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus"
+  },
+  {
+    "date": "2026-10-08",
+    "category": "entertainment",
+    "amount": 150.0,
+    "comment": "games"
+  },
+  {
+    "date": "2026-10-09",
+    "category": "food",
+    "amount": 110.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-10-09",
+    "category": "mobile",
+    "amount": 100.0,
+    "comment": "phone"
+  },
+  {
+    "date": "2026-10-10",
+    "category": "food",
+    "amount": 180.0,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-10-10",
+    "category": "entertainment",
+    "amount": 80.0,
+    "comment": "game"
+  },
+  {
+    "date": "2026-10-11",
+    "category": "food",
+    "amount": 95.0,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-10-12",
+    "category": "transport",
+    "amount": 32.0,
+    "comment": "bus"
+  },
+  {
+    "date": "2026-11-22",
+    "category": "food",
+    "amount": 50.0,
+    "comment": "lunch"
+  }
+]
