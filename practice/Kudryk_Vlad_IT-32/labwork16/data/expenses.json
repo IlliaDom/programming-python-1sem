@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-10-20",
+    "category": "food",
+    "amount": 85.5,
+    "comment": "lunch"
+  },
+  {
+    "date": "2026-10-21",
+    "category": "transport",
+    "amount": 40.0,
+    "comment": "bus"
+  },
+  {
+    "date": "2026-10-22",
+    "category": "food",
+    "amount": 14.5,
+    "comment": "coffee"
+  },
+  {
+    "date": "2026-10-23",
+    "category": "transport",
+    "amount": 30.0,
+    "comment": "taxi"
+  },
+  {
+    "date": "2026-10-24",
+    "category": "food",
+    "amount": 120.0,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-10-25",
+    "category": "food",
+    "amount": 8.0,
+    "comment": "snack"
+  }
+]
