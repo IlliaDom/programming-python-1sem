@@ -34,11 +34,12 @@ class YearlyExpense(Expense):
         return self.amount / 12
 
 
-expenses_list = [Expense("2026-10-24", "books", 699.00), Expense("2026-10-12", "food", 480.00), ReccuringExpense("2026-11-20", "transport", 120.00, 4), ReccuringExpense("2026-11-23", "food", 42.00, 15), SharedExpense("2026-11-31", "internet", 359.00, 3), SharedExpense("2026-11-15", "bill", 1230.00, 3), YearlyExpense("2026-11-23", "subsription", 4520.59), YearlyExpense("2026-11-23", "subsription", 5424.80)]
+if __name__ == "__main__":
+    expenses_list = [Expense("2026-10-24", "books", 699.00), Expense("2026-10-12", "food", 480.00), ReccuringExpense("2026-11-20", "transport", 120.00, 4), ReccuringExpense("2026-11-23", "food", 42.00, 15), SharedExpense("2026-11-31", "internet", 359.00, 3), SharedExpense("2026-11-15", "bill", 1230.00, 3), YearlyExpense("2026-11-23", "subsription", 4520.59), YearlyExpense("2026-11-23", "subsription", 5424.80)]
 
-total = 0
+    total = 0
 
-for expense in expenses_list:
-    total += expense.monthly_cost()
+    for expense in expenses_list:
+        total += expense.monthly_cost()
 
-print("Total monthly expenses:", round(total, 2))
+    print("Total monthly expenses:", round(total, 2))

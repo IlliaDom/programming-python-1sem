@@ -28,4 +28,5 @@ def load_exchange_rate():
     print("source: api(cache saved)")
 
 
-load_exchange_rate()
+if __name__ == "__main__":
+    load_exchange_rate()

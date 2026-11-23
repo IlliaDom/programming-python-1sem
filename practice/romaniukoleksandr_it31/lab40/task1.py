@@ -16,8 +16,10 @@ class Student:
 group: {self.group}
 {self.age(2026)}"""
 
-oleksandr = Student("Oleksandr", "Romaniuk", "IT-31", 2008)
-print(oleksandr.card())
 
-tymophiy = Student("Tymophiy", "Savchuk", "IT-31", 2008)
-print(tymophiy.card())
+if __name__ == "__main__":
+    oleksandr = Student("Oleksandr", "Romaniuk", "IT-31", 2008)
+    print(oleksandr.card())
+
+    tymophiy = Student("Tymophiy", "Savchuk", "IT-31", 2008)
+    print(tymophiy.card())

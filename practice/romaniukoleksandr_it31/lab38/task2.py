@@ -5,20 +5,7 @@ import requests
 
 print("Oleksandr Romaniuk, IT-31")
 
-expenses = Path("data/expenses.csv")
-data = []
-
-with open(expenses, "r", encoding="utf-8") as f:
-    for record in f.readlines():
-        if record.startswith("#") or record == "":
-            continue
-
-        data.append(record.strip().split(";"))
-
-total_gryvnia = 0
-
-for record in data:
-    total_gryvnia += float(record[2])
+EXPENSES = Path("data/expenses.csv")
 
 def process_errors(url, params):
     try:
@@ -37,15 +24,29 @@ def process_errors(url, params):
 
 URL = "https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange"
 
-euro_info = process_errors(URL, {"json": "", "valcode": "EUR"})
-euro_rate = euro_info[0]["rate"]
+if __name__ == "__main__":
+    data = []
 
-dollar_info = process_errors(URL, {"json": "", "valcode": "USD"})
-dollar_rate = dollar_info[0]["rate"]
+    with open(EXPENSES, "r", encoding="utf-8") as f:
+        for record in f.readlines():
+            if record.startswith("#") or record == "":
+                continue
 
-total_euro = total_gryvnia / euro_rate
-total_dollar = total_gryvnia / dollar_rate
+            data.append(record.strip().split(";"))
 
-print("rate date(EUR, USD):", euro_info[0]["exchangedate"], dollar_info[0]["exchangedate"])
-print(f"total: {total_gryvnia:.2f} UAH = {total_euro:.2f} EUR = {total_dollar:.2f} USD")
+    total_gryvnia = 0
 
+    for record in data:
+        total_gryvnia += float(record[2])
+    
+    euro_info = process_errors(URL, {"json": "", "valcode": "EUR"})
+    euro_rate = euro_info[0]["rate"]
+
+    dollar_info = process_errors(URL, {"json": "", "valcode": "USD"})
+    dollar_rate = dollar_info[0]["rate"]
+
+    total_euro = total_gryvnia / euro_rate
+    total_dollar = total_gryvnia / dollar_rate
+
+    print("rate date(EUR, USD):", euro_info[0]["exchangedate"], dollar_info[0]["exchangedate"])
+    print(f"total: {total_gryvnia:.2f} UAH = {total_euro:.2f} EUR = {total_dollar:.2f} USD")

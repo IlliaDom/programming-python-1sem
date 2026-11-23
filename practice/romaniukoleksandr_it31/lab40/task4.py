@@ -1,5 +1,7 @@
 from pathlib import Path
 
+EXPENSES_PATH = Path("data/expenses.csv")
+
 class Expense:
     def __init__(self, date, category, amount, comment):
         self.date = date
@@ -47,22 +49,22 @@ class ExpenseBook:
        return sorted_expenses[:n]
 
 
-expenses_path = Path("data/expenses.csv")
-book = ExpenseBook()
+if __name__ == "__main__":
+    book = ExpenseBook()
 
-with open(expenses_path, "r", encoding="utf-8") as f:
-    for record in f.readlines():
-        if record.startswith("#") or record == "":
-            continue
+    with open(EXPENSES_PATH, "r", encoding="utf-8") as f:
+        for record in f.readlines():
+            if record.startswith("#") or record == "":
+                continue
 
-        date, category, amount, comment = record.strip().split(";")
+            date, category, amount, comment = record.strip().split(";")
 
-        expense = Expense(date, category, float(amount), comment)
+            expense = Expense(date, category, float(amount), comment)
 
-        book.add(expense)
+            book.add(expense)
 
-print(f'Total expenses: {book.total()}')
-print(f'Books expenses: {book.by_category("books")}')
-print(f'Food expenses: {book.by_category("food")}')
-print(f'Transport expenses: {book.by_category("transport")}')
-print(f'Top 3 expenses: {[record.describe() for record in book.top(3)]}')
+    print(f'Total expenses: {book.total()}')
+    print(f'Books expenses: {book.by_category("books")}')
+    print(f'Food expenses: {book.by_category("food")}')
+    print(f'Transport expenses: {book.by_category("transport")}')
+    print(f'Top 3 expenses: {[record.describe() for record in book.top(3)]}')

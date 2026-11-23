@@ -16,26 +16,27 @@ def load_rates(url, params):
         sys.exit(1)
 
 
-rates, status, headers = load_rates(URL, {"json": ""})
+if __name__ == "__main__":
+    rates, status, headers = load_rates(URL, {"json": ""})
 
-print("Response code:", status)
-print("Content-Type:", headers["Content-Type"])#
-print("Currencies:", len(rates))
+    print("Response code:", status)
+    print("Content-Type:", headers["Content-Type"])#
+    print("Currencies:", len(rates))
 
-euro_data = []
-dollar_data = []
+    euro_data = []
+    dollar_data = []
 
-for rate in rates:
-    if rate["cc"] == "EUR":
-        euro_data.append(rate["cc"])
-        euro_data.append(rate["rate"])
-        euro_data.append(rate["exchangedate"])
-    elif rate["cc"] == "USD":
-        dollar_data.append(rate["cc"])
-        dollar_data.append(rate["rate"])
-        dollar_data.append(rate["exchangedate"])
+    for rate in rates:
+        if rate["cc"] == "EUR":
+            euro_data.append(rate["cc"])
+            euro_data.append(rate["rate"])
+            euro_data.append(rate["exchangedate"])
+        elif rate["cc"] == "USD":
+            dollar_data.append(rate["cc"])
+            dollar_data.append(rate["rate"])
+            dollar_data.append(rate["exchangedate"])
 
-    continue
+        continue
 
-print("Euro:", euro_data[0], euro_data[1], euro_data[2])
-print("Dollar:", dollar_data[0], dollar_data[1], dollar_data[2])
+    print("Euro:", euro_data[0], euro_data[1], euro_data[2])
+    print("Dollar:", dollar_data[0], dollar_data[1], dollar_data[2])

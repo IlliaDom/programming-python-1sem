@@ -43,4 +43,3 @@ if __name__ == "__main__":
         print("error:", err)
     except AttributeError as err:
         print("error:", err)
-        

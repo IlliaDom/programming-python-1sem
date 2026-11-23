@@ -21,7 +21,7 @@ class Wallet():
 if __name__ == "__main__":
     try:
         oleksandr = Wallet("Oleksandr", 478)
-        # oleksandr.withdraw(4444)
+        oleksandr.withdraw(4444)
         oleksandr.deposit(45)
         print(oleksandr._Wallet__balance)
     except ValueError as err:

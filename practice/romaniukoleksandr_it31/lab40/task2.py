@@ -21,16 +21,18 @@ class Student:
 group: {self.group}
 {self.age(2026)}"""
 
-oleksandr = Student("Oleksandr", "Romaniuk", "IT-31", 2008)
-print("From class:", Student.college)
-print("From object:", oleksandr.college)
 
-tymophiy = Student("Tymophiy", "Savchuk", "IT-31", 2008)
-tymophiy.college = "KTBP SNU"
-print("From object oleksandr:", oleksandr.college)
-print("From object tymophiy:", tymophiy.college)
-print(oleksandr.__dict__)
-print(tymophiy.__dict__)
-print(Student.__dict__)
+if __name__ == "__main__":
+    oleksandr = Student("Oleksandr", "Romaniuk", "IT-31", 2008)
+    print("From class:", Student.college)
+    print("From object:", oleksandr.college)
 
-print("Count:", Student.__dict__["count"])
+    tymophiy = Student("Tymophiy", "Savchuk", "IT-31", 2008)
+    tymophiy.college = "KTBP SNU"
+    print("From object oleksandr:", oleksandr.college)
+    print("From object tymophiy:", tymophiy.college)
+    print(oleksandr.__dict__)
+    print(tymophiy.__dict__)
+    print(Student.__dict__)
+
+    print("Count:", Student.__dict__["count"])

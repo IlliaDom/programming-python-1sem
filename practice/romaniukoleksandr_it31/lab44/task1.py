@@ -25,8 +25,9 @@ class GroupLeader(Student):
         return f"{super().describe()}, group leader, {self.phone}"
 
 
-oleksandr = Student("Oleksandr", "Romaniuk", "IT-31")
-andriy = GroupLeader("Andriy", "Gordiy", "IT-31", "+380671111111")
+if __name__ == "__main__":
+    oleksandr = Student("Oleksandr", "Romaniuk", "IT-31")
+    andriy = GroupLeader("Andriy", "Gordiy", "IT-31", "+380671111111")
 
-print(oleksandr.describe())
-print(andriy.describe())
+    print(oleksandr.describe())
+    print(andriy.describe())

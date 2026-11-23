@@ -25,12 +25,13 @@ class GroupLeader(Student):
         return f"{super().describe()}, group leader, {self.phone}"
 
 
-oleksandr = Student("Oleksandr", "Romaniuk", "IT-31")
-andriy = GroupLeader("Andriy", "Gordiy", "IT-31", "+380671111111")
+if __name__ == "__main__":
+    oleksandr = Student("Oleksandr", "Romaniuk", "IT-31")
+    andriy = GroupLeader("Andriy", "Gordiy", "IT-31", "+380671111111")
 
-print(f"""{"Class":<11}  {"Oleksandr":<9}  {"Andriy":<6}
-{"Person":<11}  {isinstance(oleksandr, Person):>9}  {isinstance(andriy, Person):>6}
-{"Student":<11}  {isinstance(oleksandr, Student):>9}  {isinstance(andriy, Student):>6}
-{"GroupLeader":<11}  {isinstance(oleksandr, GroupLeader):>9}  {isinstance(andriy, GroupLeader):>6}""")
+    print(f"""{"Class":<11}  {"Oleksandr":<9}  {"Andriy":<6}
+    {"Person":<11}  {isinstance(oleksandr, Person):>9}  {isinstance(andriy, Person):>6}
+    {"Student":<11}  {isinstance(oleksandr, Student):>9}  {isinstance(andriy, Student):>6}
+    {"GroupLeader":<11}  {isinstance(oleksandr, GroupLeader):>9}  {isinstance(andriy, GroupLeader):>6}""")
 
-print(GroupLeader.__mro__)
+    print(GroupLeader.__mro__)
