@@ -1,9 +1,9 @@
 site/
 env/
 __pycache__/
+.pytest_cache/
 .venv/
 lecture/
-practice/
 node_modules/
 .claude/skills/
 .DS_Store
