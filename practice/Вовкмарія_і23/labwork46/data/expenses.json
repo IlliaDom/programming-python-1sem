@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2026-09-21",
+        "category": "Food",
+        "amount": 150.0,
+        "comment": "обід"
+    },
+    {
+        "date": "2026-09-22",
+        "category": "Transport",
+        "amount": 40.0,
+        "comment": "автобус"
+    },
+    {
+        "date": "2026-09-22",
+        "category": "Food",
+        "amount": 120.0,
+        "comment": "перекус"
+    },
+    {
+        "date": "2026-09-23",
+        "category": "Study",
+        "amount": 85.0,
+        "comment": "канцтовари"
+    },
+    {
+        "date": "2026-09-23",
+        "category": "Food",
+        "amount": 180.0,
+        "comment": "обід"
+    },
+    {
+        "date": "2026-09-24",
+        "category": "Transport",
+        "amount": 40.0,
+        "comment": "автобус"
+    },
+    {
+        "date": "2026-09-24",
+        "category": "Entertainment",
+        "amount": 200.0,
+        "comment": "кіно"
+    },
+    {
+        "date": "2026-09-25",
+        "category": "Food",
+        "amount": 130.0,
+        "comment": "продукти"
+    },
+    {
+        "date": "2026-09-25",
+        "category": "Transport",
+        "amount": 40.0,
+        "comment": "автобус"
+    },
+    {
+        "date": "2026-09-26",
+        "category": "Food",
+        "amount": 220.0,
+        "comment": "продукти"
+    },
+    {
+        "date": "2026-09-26",
+        "category": "Study",
+        "amount": 60.0,
+        "comment": "зошит"
+    },
+    {
+        "date": "2026-09-27",
+        "category": "Food",
+        "amount": 160.0,
+        "comment": "обід"
+    }
+]
