@@ -1,0 +1,290 @@
+[
+  {
+    "date": "12.09.2026",
+    "category": "Food",
+    "amount": 9.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "12.09.2026",
+    "category": "Transport",
+    "amount": 9.0,
+    "comment": "Автобус"
+  },
+  {
+    "date": "12.09.2026",
+    "category": "Coffee",
+    "amount": 65.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "13.09.2026",
+    "category": "Food",
+    "amount": 120.0,
+    "comment": "Сніданок"
+  },
+  {
+    "date": "13.09.2026",
+    "category": "Food",
+    "amount": 185.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "13.09.2026",
+    "category": "Transport",
+    "amount": 40.0,
+    "comment": "Таксі"
+  },
+  {
+    "date": "14.09.2026",
+    "category": "Food",
+    "amount": 85.5,
+    "comment": "Продукти"
+  },
+  {
+    "date": "14.09.2026",
+    "category": "Entertainment",
+    "amount": 200.0,
+    "comment": "Кіно"
+  },
+  {
+    "date": "14.09.2026",
+    "category": "Coffee",
+    "amount": 55.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "15.09.2026",
+    "category": "Food",
+    "amount": 140.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "15.09.2026",
+    "category": "Transport",
+    "amount": 20.0,
+    "comment": "Автобус"
+  },
+  {
+    "date": "15.09.2026",
+    "category": "Clothes",
+    "amount": 750.0,
+    "comment": "Футболка"
+  },
+  {
+    "date": "16.09.2026",
+    "category": "Food",
+    "amount": 95.0,
+    "comment": "Сніданок"
+  },
+  {
+    "date": "16.09.2026",
+    "category": "Food",
+    "amount": 160.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "16.09.2026",
+    "category": "Coffee",
+    "amount": 70.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "17.09.2026",
+    "category": "Transport",
+    "amount": 35.0,
+    "comment": "Таксі"
+  },
+  {
+    "date": "17.09.2026",
+    "category": "Food",
+    "amount": 125.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "17.09.2026",
+    "category": "Entertainment",
+    "amount": 300.0,
+    "comment": "Розваги"
+  },
+  {
+    "date": "18.09.2026",
+    "category": "Food",
+    "amount": 110.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "18.09.2026",
+    "category": "Transport",
+    "amount": 25.0,
+    "comment": "Автобус"
+  },
+  {
+    "date": "18.09.2026",
+    "category": "Coffee",
+    "amount": 60.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "19.09.2026",
+    "category": "Food",
+    "amount": 180.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "19.09.2026",
+    "category": "Entertainment",
+    "amount": 150.0,
+    "comment": "Кіно"
+  },
+  {
+    "date": "19.09.2026",
+    "category": "Other",
+    "amount": 90.0,
+    "comment": "Покупки"
+  },
+  {
+    "date": "20.09.2026",
+    "category": "Food",
+    "amount": 130.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "20.09.2026",
+    "category": "Transport",
+    "amount": 40.0,
+    "comment": "Таксі"
+  },
+  {
+    "date": "20.09.2026",
+    "category": "Coffee",
+    "amount": 55.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "21.09.2026",
+    "category": "Food",
+    "amount": 100.0,
+    "comment": "Сніданок"
+  },
+  {
+    "date": "21.09.2026",
+    "category": "Food",
+    "amount": 175.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "21.09.2026",
+    "category": "Transport",
+    "amount": 25.0,
+    "comment": "Автобус"
+  },
+  {
+    "date": "22.09.2026",
+    "category": "Food",
+    "amount": 145.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "22.09.2026",
+    "category": "Coffee",
+    "amount": 65.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "22.09.2026",
+    "category": "Entertainment",
+    "amount": 220.0,
+    "comment": "Розваги"
+  },
+  {
+    "date": "23.09.2026",
+    "category": "Food",
+    "amount": 90.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "23.09.2026",
+    "category": "Transport",
+    "amount": 30.0,
+    "comment": "Автобус"
+  },
+  {
+    "date": "23.09.2026",
+    "category": "Other",
+    "amount": 250.0,
+    "comment": "Покупки"
+  },
+  {
+    "date": "24.09.2026",
+    "category": "Food",
+    "amount": 160.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "24.09.2026",
+    "category": "Coffee",
+    "amount": 50.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "24.09.2026",
+    "category": "Clothes",
+    "amount": 450.0,
+    "comment": "Кофта"
+  },
+  {
+    "date": "25.09.2026",
+    "category": "Food",
+    "amount": 120.0,
+    "comment": "Обід"
+  },
+  {
+    "date": "25.09.2026",
+    "category": "Transport",
+    "amount": 35.0,
+    "comment": "Таксі"
+  },
+  {
+    "date": "25.09.2026",
+    "category": "Entertainment",
+    "amount": 180.0,
+    "comment": "Кіно"
+  },
+  {
+    "date": "26.09.2026",
+    "category": "Food",
+    "amount": 200.0,
+    "comment": "Продукти"
+  },
+  {
+    "date": "26.09.2026",
+    "category": "Coffee",
+    "amount": 60.0,
+    "comment": "Кава"
+  },
+  {
+    "date": "26.09.2026",
+    "category": "Other",
+    "amount": 300.0,
+    "comment": "Покупки"
+  },
+  {
+    "date": "27.09.2026",
+    "category": "Food",
+    "amount": 115.0,
+    "comment": "Сніданок"
+  },
+  {
+    "date": "27.09.2026",
+    "category": "Food",
+    "amount": 190.0,
+    "comment": "Вечеря"
+  },
+  {
+    "date": "27.09.2026",
+    "category": "Transport",
+    "amount": 25.0,
+    "comment": "Автобус"
+  }
+]
