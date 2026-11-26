@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-11-06",
+    "category": "food",
+    "amount": 78.0,
+    "comment": "lunch at canteen"
+  },
+  {
+    "date": "2026-11-06",
+    "category": "transport",
+    "amount": 28.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-11-07",
+    "category": "coffee",
+    "amount": 55.0,
+    "comment": "before the lecture"
+  },
+  {
+    "date": "2026-11-07",
+    "category": "food",
+    "amount": 134.5,
+    "comment": "groceries"
+  },
+  {
+    "date": "2026-11-08",
+    "category": "books",
+    "amount": 180.0,
+    "comment": "sql notebook"
+  },
+  {
+    "date": "2026-11-08",
+    "category": "food",
+    "amount": 42.0,
+    "comment": "snack"
+  },
+  {
+    "date": "2026-11-09",
+    "category": "transport",
+    "amount": 28.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-11-09",
+    "category": "food",
+    "amount": 110.0,
+    "comment": "dinner with friends"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "coffee",
+    "amount": 55.0,
+    "comment": "before the lecture"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "internet",
+    "amount": 230.0,
+    "comment": "monthly plan"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "transport",
+    "amount": 28.0,
+    "comment": "bus to college"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "food",
+    "amount": 69.5,
+    "comment": "pizza slice"
+  },
+  {
+    "date": "2026-11-12",
+    "category": "food",
+    "amount": 95.0,
+    "comment": "lunch at canteen"
+  },
+  {
+    "date": "2026-11-12",
+    "category": "coffee",
+    "amount": 60.0,
+    "comment": "iced latte"
+  }
+]
